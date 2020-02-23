@@ -1,0 +1,56 @@
+<style>h3{
+    color: rbg(00,255,00);
+    front - font-weight: ;
+    front - size: 30px;
+}
+    </style>
+    h1 div p a {
+        color: red;
+
+    }// thẻ theo thứ tự ưu tiên khi h1 trỏ đến
+    table, td{
+        border: 2px solid red;
+    }
+   table-heading{
+       background-color: chocolate;
+       padding: 30px;
+       margin: 20px;
+       margin-bottom: 100px;
+
+
+
+
+   }
+   td{
+       padding: 10px 10px 10px 30px;
+       padding-left: 10px;
+       width: 100px;
+   }
+   table , td, th{
+       border: 2px solid red ;
+   }
+   td:first-child{
+
+       text-align:  center;} // thẻ sử dụng đồng cấp
+   table{
+    border-collapse: collapse;
+}
+td:nth-child(2), td:nth-child(3)
+{
+
+} //tạo style cho con 2,3; lấy trong tr cùng cấp với nó 
+tr:nth-child(even) {
+    background-color: darkcyan;
+}// tạo màu cho hàng chẵn
+#a-pseodu-class:link{
+    color: green;
+}
+#a-pseodu-class:active{
+    color: yellow;
+}
+#a-pseodu-class:hover{
+    color: red;
+}
+#a-pseodu-class:visited{
+    color: black;
+}
